@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Context", "QEF.Context\QEF.Context.csproj", "{09C04540-98FC-4482-9F20-97D7D97E61D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Model", "QEF.Model\QEF.Model.csproj", "{A07388B1-65ED-4C29-9E81-55C0C735ADB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.TablesCreator.EF8", "QEF.TablesCreator.EF8\QEF.TablesCreator.EF8.csproj", "{3B1FB1A9-0630-406B-99EF-B0BEA4BF7596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.TablesCreator.EF8.PGS", "QEF.TablesCreator.EF8.PGS\QEF.TablesCreator.EF8.PGS.csproj", "{36A5DAAA-57F4-42F7-AC98-A7DF3C9586FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC90EC19-B940-4820-9AAC-A31EE7B252E9}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.json = appsettings.json
+		appsettings.test.json = appsettings.test.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Context.SQL", "QEF.Context.SQL\QEF.Context.SQL.csproj", "{4FBA6F03-9C8C-44C5-927A-EC7D121F51AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Context.PGS", "QEF.Context.PGS\QEF.Context.PGS.csproj", "{0CC70840-0A3F-491B-B9A4-32C1EBB02254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D4F994FD-F31E-4AC7-825E-C575D795E227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Context.EF8.Tests", "test\QEF.Context.EF8.Tests\QEF.Context.EF8.Tests.csproj", "{18FEEFAE-93D1-419F-B66F-02F3DA2D96FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Context.EF7.Tests", "test\QEF.Context.EF7.Tests\QEF.Context.EF7.Tests.csproj", "{7C608943-7FD1-4DC3-9276-0CDC19BDC24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Context.EF6.Tests", "test\QEF.Context.EF6.Tests\QEF.Context.EF6.Tests.csproj", "{15D4E923-23A0-4F81-BB13-058D887D5CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEF.Context.EF9.Tests", "test\QEF.Context.EF9.Tests\QEF.Context.EF9.Tests.csproj", "{E017818D-52F4-40F4-9ECF-01022B756D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09C04540-98FC-4482-9F20-97D7D97E61D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C04540-98FC-4482-9F20-97D7D97E61D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C04540-98FC-4482-9F20-97D7D97E61D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C04540-98FC-4482-9F20-97D7D97E61D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07388B1-65ED-4C29-9E81-55C0C735ADB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07388B1-65ED-4C29-9E81-55C0C735ADB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07388B1-65ED-4C29-9E81-55C0C735ADB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07388B1-65ED-4C29-9E81-55C0C735ADB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1FB1A9-0630-406B-99EF-B0BEA4BF7596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1FB1A9-0630-406B-99EF-B0BEA4BF7596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1FB1A9-0630-406B-99EF-B0BEA4BF7596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1FB1A9-0630-406B-99EF-B0BEA4BF7596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A5DAAA-57F4-42F7-AC98-A7DF3C9586FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A5DAAA-57F4-42F7-AC98-A7DF3C9586FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A5DAAA-57F4-42F7-AC98-A7DF3C9586FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A5DAAA-57F4-42F7-AC98-A7DF3C9586FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBA6F03-9C8C-44C5-927A-EC7D121F51AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBA6F03-9C8C-44C5-927A-EC7D121F51AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBA6F03-9C8C-44C5-927A-EC7D121F51AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBA6F03-9C8C-44C5-927A-EC7D121F51AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC70840-0A3F-491B-B9A4-32C1EBB02254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC70840-0A3F-491B-B9A4-32C1EBB02254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC70840-0A3F-491B-B9A4-32C1EBB02254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC70840-0A3F-491B-B9A4-32C1EBB02254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FEEFAE-93D1-419F-B66F-02F3DA2D96FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FEEFAE-93D1-419F-B66F-02F3DA2D96FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FEEFAE-93D1-419F-B66F-02F3DA2D96FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FEEFAE-93D1-419F-B66F-02F3DA2D96FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C608943-7FD1-4DC3-9276-0CDC19BDC24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C608943-7FD1-4DC3-9276-0CDC19BDC24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C608943-7FD1-4DC3-9276-0CDC19BDC24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C608943-7FD1-4DC3-9276-0CDC19BDC24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D4E923-23A0-4F81-BB13-058D887D5CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D4E923-23A0-4F81-BB13-058D887D5CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D4E923-23A0-4F81-BB13-058D887D5CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D4E923-23A0-4F81-BB13-058D887D5CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E017818D-52F4-40F4-9ECF-01022B756D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E017818D-52F4-40F4-9ECF-01022B756D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E017818D-52F4-40F4-9ECF-01022B756D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E017818D-52F4-40F4-9ECF-01022B756D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18FEEFAE-93D1-419F-B66F-02F3DA2D96FD} = {D4F994FD-F31E-4AC7-825E-C575D795E227}
+		{7C608943-7FD1-4DC3-9276-0CDC19BDC24C} = {D4F994FD-F31E-4AC7-825E-C575D795E227}
+		{15D4E923-23A0-4F81-BB13-058D887D5CA6} = {D4F994FD-F31E-4AC7-825E-C575D795E227}
+		{E017818D-52F4-40F4-9ECF-01022B756D4B} = {D4F994FD-F31E-4AC7-825E-C575D795E227}
+	EndGlobalSection
+EndGlobal

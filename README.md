@@ -9,3 +9,5 @@ https://github.com/aidecode/qef/blob/main/appsettings.test.json
 
 There are tests for different versions of EF in the test folder
 https://github.com/aidecode/qef/tree/main/test
+
+Habr Article [Contains in Entity Framework for SQL Server](https://habr.com/ru/companies/alfa/articles/869120/)
